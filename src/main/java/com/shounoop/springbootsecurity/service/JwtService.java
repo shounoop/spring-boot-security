@@ -1,4 +1,4 @@
-package com.shounoop.springbootsecurity.config;
+package com.shounoop.springbootsecurity.service;
 
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;

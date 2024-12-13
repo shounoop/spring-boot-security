@@ -1,4 +1,4 @@
-package com.shounoop.springbootsecurity.auth;
+package com.shounoop.springbootsecurity.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

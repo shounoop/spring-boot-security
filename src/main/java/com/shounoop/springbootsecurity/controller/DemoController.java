@@ -1,4 +1,4 @@
-package com.shounoop.springbootsecurity.demo;
+package com.shounoop.springbootsecurity.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

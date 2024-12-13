@@ -1,5 +1,6 @@
-package com.shounoop.springbootsecurity.user;
+package com.shounoop.springbootsecurity.model.entity;
 
+import com.shounoop.springbootsecurity.constant.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -26,6 +27,7 @@ public class User implements UserDetails {
     private String lastname;
     private String email;
     private String password;
+
     @Enumerated(EnumType.STRING)
     private Role role;
 

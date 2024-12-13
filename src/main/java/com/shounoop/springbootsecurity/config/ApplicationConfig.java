@@ -1,6 +1,6 @@
 package com.shounoop.springbootsecurity.config;
 
-import com.shounoop.springbootsecurity.user.UserRepository;
+import com.shounoop.springbootsecurity.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

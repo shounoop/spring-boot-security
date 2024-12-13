@@ -1,5 +1,9 @@
-package com.shounoop.springbootsecurity.auth;
+package com.shounoop.springbootsecurity.controller;
 
+import com.shounoop.springbootsecurity.model.request.AuthenticationRequest;
+import com.shounoop.springbootsecurity.model.response.AuthenticationResponse;
+import com.shounoop.springbootsecurity.model.request.RegistrationRequest;
+import com.shounoop.springbootsecurity.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

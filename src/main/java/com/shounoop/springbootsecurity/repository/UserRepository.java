@@ -1,5 +1,6 @@
-package com.shounoop.springbootsecurity.user;
+package com.shounoop.springbootsecurity.repository;
 
+import com.shounoop.springbootsecurity.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
