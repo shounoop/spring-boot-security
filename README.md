@@ -39,5 +39,23 @@ A sample project demonstrating how to implement security in a Spring Boot applic
 ## Security Schema
 ![Spring boot security schema](https://github.com/shounoop/spring-boot-security/assets/85869774/588e88c1-67b6-40df-8ea5-437455e4db8d)
 
+## Flow: Spring Boot Security
+
+1. **User Request**: A user tries to access a protected resource or endpoint.
+2. **Authentication**:  
+   - If not authenticated, Spring Security intercepts the request and redirects to the login page or returns a 401/403 for APIs.
+   - User submits credentials (username/password or token).
+3. **Credential Validation**:  
+   - Spring Security validates credentials against the configured user store (in-memory, database, LDAP, etc.).
+   - If valid, a session or JWT token is created.
+4. **Authorization**:  
+   - Spring Security checks user roles/authorities for the requested resource.
+   - Access is granted or denied based on permissions.
+5. **Access Granted/Denied**:  
+   - If authorized, the user accesses the resource.
+   - If not, an error or access denied page is shown.
+6. **Logout**:  
+   - User can log out, which invalidates the session or token.
+
 ## Contributing
 Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
