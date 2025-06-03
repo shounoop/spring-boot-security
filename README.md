@@ -41,6 +41,3 @@ A sample project demonstrating how to implement security in a Spring Boot applic
 
 ## Contributing
 Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
